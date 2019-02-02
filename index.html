@@ -167,26 +167,28 @@
 		<div class="jumbotron mb-0" id="message" >
 			<h1 class="text-center text-primary"  style="font-weight: 250;font-family: initial;">Administration Head</h1>
 			<p class="text-center" style="font-size: 20px">We grow together with the community</p>
-			<div class="container row">
-				<div class="col-md-6 col-sm-12 pt-5">
-					<div class="text-center">
-						<img src="images/manager.png" height="250px" style="border-radius: 50%">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 pt-5">
+						<div class="text-center">
+							<img src="images/manager.png" height="250px" style="border-radius: 50%">
+						</div>
+						<br>
+						<div>
+						<p class="text-center">There is a scope for continuous improvement. It is our aim to provide an environment that encourages growth, fosters creativity, generates honesty and sincerity where the students can get a strong inner and outer power to face challenges in life and wide are.</p>
+						</div>
+						<p style="color: #b38282" class="text-center">Mrs. Poonam Rajput<br>Manager<br><i class="fa fa-phone"></i> +91 9454575638, 9838920342</p>
 					</div>
-					<br>
-					<div>
-					<p class="text-center">There is a scope for continuous improvement. It is our aim to provide an environment that encourages growth, fosters creativity, generates honesty and sincerity where the students can get a strong inner and outer power to face challenges in life and wide are.</p>
+					<div class="col-md-6 col-sm-12  pt-5">
+						<div class="text-center">
+							<img src="images/principal1.png" height="250px" style="border-radius: 50%">
+						</div>
+						<br>
+						<div>
+						<p class="text-center">There is a scope for continuous improvement. It is our aim to provide an environment that encourages growth, fosters creativity, generates honesty and sincerity where the students can get a strong inner and outer power to face challenges in life and wide are.</p>
+						</div>
+						<p style="color: #b38282" class="text-center">Mr. S.Kumar<br>Principal<br><i class="fa fa-phone"></i> +91 9453666726, 9452506989</p>
 					</div>
-					<p style="color: #b38282" class="text-center">Mrs. Poonam Rajput<br>Manager<br><i class="fa fa-phone"></i> +91 9454575638, 9838920342</p>
-				</div>
-				<div class="col-md-6 col-sm-12  pt-5">
-					<div class="text-center">
-						<img src="images/principal1.png" height="250px" style="border-radius: 50%">
-					</div>
-					<br>
-					<div>
-					<p class="text-center">There is a scope for continuous improvement. It is our aim to provide an environment that encourages growth, fosters creativity, generates honesty and sincerity where the students can get a strong inner and outer power to face challenges in life and wide are.</p>
-					</div>
-					<p style="color: #b38282" class="text-center">Mr. S.Kumar<br>Principal<br><i class="fa fa-phone"></i> +91 9453666726, 9452506989</p>
 				</div>
 			</div>
 		</div>
@@ -243,13 +245,30 @@
 					<div class="col-md-7 col-sm-12">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688329.404626988!2d80.13022879262601!3d25.475542445163345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399d433802eecfdd%3A0x1684df1ccfbbfeed!2sApex+Public+School!5e0!3m2!1sen!2sin!4v1549138810712" width="100%" height="400px" frameborder="3" style="border:3" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-5 col-sm-12"></div>
+					<div class="col-md-5 col-sm-12">
+			          <form action="send_mail.php" method="POST">
+			            <div class="form-group">
+			              <label for="InputName">Your name</label>
+			              <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Your name"> </div>
+			            <div class="form-group">
+			              <label for="InputEmail1">Email address</label>
+			              <input type="email" class="form-control" id="InputEmail1" name="InputEmail" placeholder="Enter email"> </div>
+						  <div class="form-group">
+			            <label for="InputEmail1">Phone No.</label>
+			              <input type="number" class="form-control" id="InputEmail1" name="InputPhone" placeholder="Enter Phone"> </div>
+			            <div class="form-group">
+			              <label for="Textarea">Write here</label>
+			              <textarea class="form-control" id="Textarea" name="Textarea" rows="3" placeholder="Type here"></textarea>
+			            </div>
+			            <button type="submit" class="btn btn-secondary">Submit</button>
+			          </form>						
+					</div>
 				</div>
 			</div>
 		</div>
 	</main>
 	<footer>
-		<div class="m-2 p-2 shadow-lg p-3 mb-5 bg-white rounded border border-primary">
+		<div class="m-2 p-2 shadow-lg p-3 mb-5  rounded border border-primary" style="background-color: plum">
 			<p class="text-primary text-center">Designed and Developed by- <b class="text-info"><span style="font-family: sans-serif;"><br><span  class="animated infinite bounceln delay-1s"> Rakesh Rajput.</span><br>&nbsp </span></b> <i class="fa fa-phone animated infinite heartBeat delay-1s"></i> +91 8115821225 &nbsp <i class="fa fa-envelope-square"></i> rakeshrajput537@gmail.com  <a href="https://www.facebook.com/rakeshrajput537" target="_blank"><i class="fa fa-facebook-f"></a></i></p>
 		</div>
 	</footer>
