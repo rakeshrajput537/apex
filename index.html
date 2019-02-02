@@ -6,7 +6,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="boot/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel='shortcut icon' type='image/x-icon' href="images/apexlogo.png">
 	
     <style type="text/css">
 
@@ -39,7 +42,7 @@
 	            <a class="nav-link active" href="#vision">Vision</a>
 	          </li>
 	          <li class="nav-item">
-	            <a class="nav-link active" href="#feature">Special Features</a>
+	            <a class="nav-link active " href="#feature">Special Features</a>
 	          </li>
 	          <li class="nav-item">
 	            <a class="nav-link active" href="#message">Message</a>
@@ -188,30 +191,73 @@
 			</div>
 		</div>
 <!--         Gallery Slider -->
-		<div class="jumbotron" style="background-color: #4f70ce" id="gallery">
+		<div class="jumbotron mb-0" style="background-color: #4f70ce" id="gallery">
 		  <h2 class="text-center pb-5 pt-0" style="font-family: sans-serif;">Our Gallery</h2>
-		   <section class="customer-logos slider">
-		      <div class="slide"><img src="images/a17.jpeg"></div>
-		      <div class="slide"><img src="images/a6.jpg"></div>
-		      <div class="slide"><img src="images/a14.jpeg"></div>
-		      <div class="slide"><img src="images/a15.jpeg"></div>
-              <div class="slide"><img src="images/a18.png"></div>
-		      <div class="slide"><img src="images/a9.png"></div>
-		      <div class="slide"><img src="images/a1.jpg"></div>
-		      <div class="slide"><img src="images/a11.jpg"></div>
-		      <div class="slide"><img src="images/a13.jpeg"></div>
-		      <div class="slide"><img src="images/a2.png"></div>
-		      <div class="slide"><img src="images/a7.jpg"></div>
-		      <div class="slide"><img src="images/a10.jpg"></div>
+		   <section class="gallery customer-logos slider">
+
+		      <div class="slide">
+		      	<a href="images/a17.jpeg" data-lightbox="mygal"><img src="images/a17.jpeg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a6.jpg" data-lightbox="mygal"><img src="images/a6.jpg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a14.jpeg" data-lightbox="mygal"> <img src="images/a14.jpeg"></a>
+		      </div>
+
+		      <div class="slide">
+		      	<a href="images/a15.jpeg" data-lightbox="mygal"><img src="images/a15.jpeg"></a>
+		      	</div>
+              <div class="slide">
+              	<a href="images/a18.png" data-lightbox="mygal"><img src="images/a18.png"></a>
+              </div>
+		      <div class="slide">
+		      	<a href="images/a9.png" data-lightbox="mygal">
+		      	<img src="images/a9.png"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a1.jpg" data-lightbox="mygal"><img src="images/a1.jpg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a11.jpg" data-lightbox="mygal"><img src="images/a11.jpg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a13.jpeg" data-lightbox="mygal"><img src="images/a13.jpeg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a2.png" data-lightbox="mygal"><img src="images/a2.png"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a7.jpg" data-lightbox="mygal">
+		      	<img src="images/a7.jpg"></a>
+		      </div>
+		      <div class="slide">
+		      	<a href="images/a10.jpg" data-lightbox="mygal"><img src="images/a10.jpg"></a>
+		      </div>
 		   </section>
+		</div>
+		<div class="jumbotron pt-5" style="background-color: #12bbad" id="contact">
+			<h1 class="text-center text-primary mb-3"  style="font-weight: 250;font-family: initial;">Contact Us</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-sm-12">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688329.404626988!2d80.13022879262601!3d25.475542445163345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399d433802eecfdd%3A0x1684df1ccfbbfeed!2sApex+Public+School!5e0!3m2!1sen!2sin!4v1549138810712" width="100%" height="400px" frameborder="3" style="border:3" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-5 col-sm-12"></div>
+				</div>
+			</div>
 		</div>
 	</main>
 	<footer>
+		<div class="m-2 p-2 shadow-lg p-3 mb-5 bg-white rounded border border-primary">
+			<p class="text-primary text-center">Designed and Developed by- <b class="text-info"><span style="font-family: sans-serif;"><br><span  class="animated infinite bounceln delay-1s"> Rakesh Rajput.</span><br>&nbsp </span></b> <i class="fa fa-phone animated infinite heartBeat delay-1s"></i> +91 8115821225 &nbsp <i class="fa fa-envelope-square"></i> rakeshrajput537@gmail.com  <a href="https://www.facebook.com/rakeshrajput537" target="_blank"><i class="fa fa-facebook-f"></a></i></p>
+		</div>
 	</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
 <script type="text/javascript" src="custom.js"></script>
 </body>
 </html>
